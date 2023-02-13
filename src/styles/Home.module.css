@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('/bg.jpg');
+  background-size: cover;
+  background-attachment:fixed ;
+  background-position-x:80% ;
+  
+}
