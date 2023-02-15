@@ -1,0 +1,62 @@
+@import './variables.scss'; 
+
+.container {
+    backdrop-filter: blur(150px);
+    border-radius: 1rem;
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media (max-width: 60rem) {
+width: 90%;    }
+    @media (max-width: 48rem) {
+        width: 98%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        font-size: 1.5rem;
+        gap: 1rem;
+
+        button{
+            align-self: center;
+            color: black;
+        }
+
+        input,
+        textarea {
+            border: none;
+            background: transparent;
+            border-radius: .25rem;
+            padding: .75rem 1rem;
+            color: black;
+            font-size: 2rem;
+
+            &::placeholder {
+                color: rgb(36, 36, 36);
+                font-size: 2rem;
+                @media (max-width: 60rem) {
+                    font-size: 1.5rem;
+                }
+                @media (max-width: 48rem) {
+                    font-size: 1.2rem;
+                }
+            }
+
+            &[type="submit"] {
+                background: hotpink;
+                color: black;
+                box-shadow: 0 .75rem .5rem -.5rem hsl(0 50% 80%);
+            }
+
+
+
+        }
+    }
+
+
+
+}

@@ -1,14 +1,27 @@
-.button{
-    width: 14rem;
-    height: 4rem;
+.button {
+    padding: 1rem;
+    border: 0.2rem solid black;
     border-radius: 1rem;
-    border-width: 0.2rem;
-    border-color: black;
+    min-width: 8rem;
+   
     background-color: transparent;
     font-size: 1.5rem;
-    &:hover{
+    backdrop-filter: blur(50px);
+    box-shadow: none;
+    @media (max-width: 60rem) {
+        font-size: 1.35rem;
+        padding: 0.5rem;
+
+    }
+    @media (max-width: 48rem) {
+        font-size: 1rem;
+        padding: 0.35rem;
+
+    }
+
+    &:hover {
         border-color: white;
         color: white;
+        
     }
-    
 }

@@ -1,18 +1,18 @@
-.container{
+.container {
     display: flex;
     justify-content: center;
-   position: fixed;
-   top:0;
+    position: fixed;
+    top: 0;
     width: 100vw;
     height: 4rem;
-    
+
     background-color: transparent;
     font-size: 1.5rem;
 
     backdrop-filter: blur(10px);
 
     z-index: 20;
-    .wrapper{
+    .wrapper {
         display: flex;
         width: 90vw;
         height: 4rem;
@@ -21,22 +21,19 @@
         border-bottom: 0.4rem solid black;
         font-size: 1.5rem;
     }
-    .logo{
+    .logo {
         margin-left: 5rem;
     }
-    nav{
+    nav {
         ul {
             display: flex;
-            li{
+            li {
                 list-style: none;
                 width: 10rem;
-                &:hover{
-                    color:green;
+                &:hover {
+                    color: green;
                 }
             }
-            
         }
     }
-
-
 }

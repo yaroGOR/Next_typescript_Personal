@@ -1,4 +1,13 @@
-.dark{
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(46,45,45,0.9764300847457628) 19%, rgb(0, 0, 0) 34%);
+@import 'variables'; 
+
+.dark {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        180deg,
+        rgba(2, 0, 36, 0) 0%,
+        rgba(46, 45, 45, 0.9764300847457628) 29%,
+        rgb(0, 0, 0) 80%
+    );
+    height: 20rem;
+    width: 100vw;
 }

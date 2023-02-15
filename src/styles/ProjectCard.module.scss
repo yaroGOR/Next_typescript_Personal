@@ -1,0 +1,48 @@
+
+.container{
+    display: flex;
+    color: white;
+    gap:2rem;
+    @media (max-width: 60rem) {
+        flex-direction: column;
+    }
+
+    .descriptionSection{
+        flex: 1;
+        .tagsList{
+            display: flex;
+            flex-wrap: wrap;
+            gap:1rem;
+        }
+        .description{
+            font-size: 1.5rem;
+        }
+        .links{
+            list-style: none;
+            display: flex;
+            gap:1rem;
+            .link{
+                font-size: 1.2rem;
+                text-transform: uppercase;
+                &:hover{
+                    color: gray;
+                }
+
+            }
+        }
+
+        h2{
+            text-transform: uppercase;
+        }
+       
+    }
+    .imageSection{
+        flex: 1;
+        width: 30%;
+        background-color: #fff;
+        img{
+            aspect-ratio: 3/4;
+            
+        }
+    }
+}

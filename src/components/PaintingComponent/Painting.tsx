@@ -7,11 +7,12 @@ import { OrbitControls } from '@react-three/drei'
 const Painting = () => {
    
   return (
-    <div style={{height: "500px"}}>
+    <div id="painting"style={{height: "500px"}}>
     <Canvas  camera={{ fov: 9 }} >
         <ambientLight/>
         <PaintingModel/>
-        <axesHelper args={[100]} />
+       {// <axesHelper args={[100]} />
+       }
         
 
     </Canvas>

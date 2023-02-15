@@ -8,6 +8,9 @@ import Hero from '../components/Hero/Hero'
 import About from '../components/About/About'
 import DarkSection from '../components/darkSection/DarkSection'
 import Skill from '../components/Skills/Skill'
+import Projects from '../components/Projects/Projects'
+import Contact from '../components/Contact/Contact'
+import Footer from '../components/Footer/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -22,10 +25,18 @@ export default function Home() {
       <main className={styles.main}>
         <Header sectionName={'somena'}/>
         <Hero/>
-        <DarkSection>
-          <About/>
-        </DarkSection>
+        <DarkSection/>
+        <div className={styles.wrapper}>
+
+        <About/>
+
         <Skill/>
+        <Projects/>
+        <Contact/>
+        </div>
+
+        <Footer/>
+
 
         
       </main>
