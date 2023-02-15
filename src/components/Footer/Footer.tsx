@@ -10,9 +10,9 @@ const Footer = () => {
             </p>
             <div className={styles.wrapper}>
                 <ul className={styles.links}>
-                    <li className={styles.link}>linkedin</li>
+                    <li className={styles.link}>Linkedin</li>
                     <li className={styles.link}>Github</li>
-                    <li className={styles.link}>donwloadcv</li>
+                    <li className={styles.link}>Donwload CV</li>
 
                 </ul>
                 <div className={styles.location}> 

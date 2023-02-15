@@ -1,5 +1,4 @@
-.container{
-    
+.container {
     height: 12vh;
     width: 100%;
     backdrop-filter: blur(50px);
@@ -7,6 +6,10 @@
     display: flex;
     flex-direction: column;
     background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     @media (max-width: 60rem) {
         font-size: 1.2rem;
         align-items: center;
@@ -14,24 +17,18 @@
     @media (max-width: 48rem) {
         font-size: 1rem;
     }
-    .wrapper{
-        
+    .wrapper {
     }
-    p{
+    p {
         text-align: center;
     }
-    .links{
+    .links {
         list-style: none;
         display: flex;
         gap: 2rem;
-     
-    
-      
-        .link{
+
+        .link {
             text-transform: uppercase;
-
-
-
         }
     }
 }
